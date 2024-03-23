@@ -19,10 +19,10 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    eccommerce,
+    potfor,
     threejs,
+    airbnb,
   } from "../assets";
   
   export const navLinks = [
@@ -198,9 +198,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ecommerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A website provies enviroment for customer can buy tech gadget!!!",
       tags: [
         {
           name: "react",
@@ -211,54 +211,58 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "scss",
           color: "pink-text-gradient",
         },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: eccommerce,
+      source_code_link: "https://github.com/Hoangdebug/EcommerceMernProject.git",
     },
     {
-      name: "Job IT",
+      name: "Portforlio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that represent anything relavent to my information",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: potfor,
+      source_code_link: "https://github.com/Hoangdebug/Portforlio.git",
     },
     {
-      name: "Trip Guide",
+      name: "AirBnb",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A travel booking platform that allows users to book hotels and offers recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Prisma",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
+        {
+          name: "Mongodb",
+          color: "green-text-gradient"
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: airbnb,
+      source_code_link: "https://github.com/Hoangdebug/Airbnb.git",
     },
   ];
   
